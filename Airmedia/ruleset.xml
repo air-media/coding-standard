@@ -175,6 +175,17 @@
         <!-- Allow extra spaces after star, i.e. for indented annotations -->
         <exclude name="Squiz.Commenting.DocCommentAlignment.SpaceAfterStar" />
     </rule>
+    <rule ref="Squiz.Commenting.FunctionComment">
+        <exclude name="Squiz.Commenting.FunctionComment.EmptyThrows" />
+        <exclude name="Squiz.Commenting.FunctionComment.IncorrectParamVarName" />
+        <exclude name="Squiz.Commenting.FunctionComment.InvalidReturn" />
+        <exclude name="Squiz.Commenting.FunctionComment.InvalidReturnNotVoid" />
+        <exclude name="Squiz.Commenting.FunctionComment.Missing" />
+        <exclude name="Squiz.Commenting.FunctionComment.MissingParamComment" />
+        <exclude name="Squiz.Commenting.FunctionComment.MissingParamTag" />
+        <exclude name="Squiz.Commenting.FunctionComment.MissingReturn" />
+        <exclude name="Squiz.Commenting.FunctionComment.TypeHintMissing" />
+    </rule>
     <rule ref="Squiz.Operators.ValidLogicalOperators" />
     <rule ref="Squiz.PHP.LowercasePHPFunctions" />
     <rule ref="Squiz.Strings.ConcatenationSpacing">
