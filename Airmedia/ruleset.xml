@@ -153,7 +153,6 @@
     <rule ref="SlevomatCodingStandard.TypeHints.TypeHintDeclaration">
         <properties>
             <property name="allAnnotationsAreUseful" value="true" />
-            <property name="enableEachParameterAndReturnInspection" value="true" />
         </properties>
         <exclude name="SlevomatCodingStandard.TypeHints.DisallowArrayTypeHintSyntax" />
     </rule>
