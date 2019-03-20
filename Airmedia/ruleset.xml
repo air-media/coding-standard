@@ -151,7 +151,10 @@
     <rule ref="SlevomatCodingStandard.TypeHints.NullTypeHintOnLastPosition" />
     <rule ref="SlevomatCodingStandard.TypeHints.ParameterTypeHintSpacing" />
     <rule ref="SlevomatCodingStandard.TypeHints.TypeHintDeclaration">
-        <exclude-pattern>tests/*</exclude-pattern>
+        <properties>
+            <property name="allAnnotationsAreUseful" value="true" />
+            <property name="enableEachParameterAndReturnInspection" value="true" />
+        </properties>
         <exclude name="SlevomatCodingStandard.TypeHints.DisallowArrayTypeHintSyntax" />
     </rule>
     <rule ref="SlevomatCodingStandard.TypeHints.ReturnTypeHintSpacing">
