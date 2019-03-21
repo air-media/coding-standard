@@ -11,6 +11,15 @@
         <exclude name="PSR2.ControlStructures.ControlStructureSpacing.SpacingAfterOpenBrace" />
     </rule>
 
+    <rule ref="Generic.Arrays.ArrayIndent" />
+    <rule ref="Generic.Arrays.DisallowLongArraySyntax" />
+    <rule ref="Generic.Formatting.SpaceAfterCast">
+        <properties>
+            <property name="spacing" value="0" />
+        </properties>
+    </rule>
+    <rule ref="Generic.WhiteSpace.IncrementDecrementSpacing" />
+
     <rule ref="SlevomatCodingStandard.Arrays.TrailingArrayComma" />
     <rule ref="SlevomatCodingStandard.Exceptions.DeadCatch" />
     <rule ref="SlevomatCodingStandard.Exceptions.ReferenceThrowableOnly" />
@@ -166,11 +175,6 @@
     <rule ref="SlevomatCodingStandard.Variables.UnusedVariable" />
     <rule ref="SlevomatCodingStandard.Variables.UselessVariable" />
 
-    <rule ref="Generic.Formatting.SpaceAfterCast">
-        <properties>
-            <property name="spacing" value="0" />
-        </properties>
-    </rule>
     <rule ref="Squiz.Classes.ClassFileName" />
     <rule ref="Squiz.Classes.SelfMemberReference" />
     <rule ref="Squiz.Commenting.DocCommentAlignment">
@@ -208,7 +212,6 @@
             <property name="spacingAfterLast" value="0" />
         </properties>
     </rule>
-    <rule ref="Generic.WhiteSpace.IncrementDecrementSpacing" />
     <rule ref="Squiz.WhiteSpace.LanguageConstructSpacing" />
     <rule ref="Squiz.WhiteSpace.ObjectOperatorSpacing">
         <properties>
