@@ -13,9 +13,22 @@
 
     <rule ref="Generic.Arrays.ArrayIndent" />
     <rule ref="Generic.Arrays.DisallowLongArraySyntax" />
+    <rule ref="Generic.PHP.DeprecatedFunctions" />
+    <rule ref="Generic.PHP.LowerCaseType" />
     <rule ref="Generic.Formatting.SpaceAfterCast">
         <properties>
             <property name="spacing" value="0" />
+        </properties>
+    </rule>
+    <rule ref="Generic.Formatting.SpaceAfterNot">
+        <properties>
+            <property name="spacing" value="0" />
+        </properties>
+    </rule>
+    <rule ref="Generic.PHP.CharacterBeforePHPOpeningTag" />
+    <rule ref="Generic.Strings.UnnecessaryStringConcat">
+        <properties>
+            <property name="allowMultiline" value="true" />
         </properties>
     </rule>
     <rule ref="Generic.WhiteSpace.IncrementDecrementSpacing" />
