@@ -110,7 +110,11 @@
     <rule ref="SlevomatCodingStandard.ControlStructures.ControlStructureSpacing" />
     <rule ref="SlevomatCodingStandard.ControlStructures.DisallowContinueWithoutIntegerOperandInSwitch" />
     <rule ref="SlevomatCodingStandard.ControlStructures.DisallowEmpty" />
-    <rule ref="SlevomatCodingStandard.ControlStructures.EarlyExit" />
+    <rule ref="SlevomatCodingStandard.ControlStructures.EarlyExit">
+        <properties>
+            <property name="ignoreStandaloneIfInScope" value="true" />
+        </properties>
+    </rule>
     <rule ref="SlevomatCodingStandard.ControlStructures.LanguageConstructWithParentheses" />
     <rule ref="SlevomatCodingStandard.ControlStructures.NewWithParentheses" />
     <rule ref="SlevomatCodingStandard.ControlStructures.RequireMultiLineTernaryOperator">
