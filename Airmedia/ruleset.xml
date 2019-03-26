@@ -189,7 +189,11 @@
     </rule>
     <rule ref="SlevomatCodingStandard.TypeHints.UselessConstantTypeHint" />
     <rule ref="SlevomatCodingStandard.Variables.DuplicateAssignmentToVariable" />
-    <rule ref="SlevomatCodingStandard.Variables.UnusedVariable" />
+    <rule ref="SlevomatCodingStandard.Variables.UnusedVariable">
+        <properties>
+            <property name="ignoreUnusedValuesWhenOnlyKeysAreUsedInForeach" value="true" />
+        </properties>
+    </rule>
     <rule ref="SlevomatCodingStandard.Variables.UselessVariable" />
 
     <rule ref="Squiz.Classes.ClassFileName" />
