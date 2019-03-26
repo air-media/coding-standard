@@ -131,9 +131,9 @@
         <properties>
             <property name="allowFallbackGlobalConstants" value="false" />
             <property name="allowFallbackGlobalFunctions" value="false" />
-            <property name="allowFullyQualifiedGlobalClasses" value="true" />
-            <property name="allowFullyQualifiedGlobalConstants" value="true" />
-            <property name="allowFullyQualifiedGlobalFunctions" value="true" />
+            <property name="allowFullyQualifiedGlobalClasses" value="false" />
+            <property name="allowFullyQualifiedGlobalConstants" value="false" />
+            <property name="allowFullyQualifiedGlobalFunctions" value="false" />
             <property name="allowFullyQualifiedNameForCollidingClasses" value="true" />
             <property name="allowFullyQualifiedNameForCollidingConstants" value="true" />
             <property name="allowFullyQualifiedNameForCollidingFunctions" value="true" />
