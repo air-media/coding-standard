@@ -106,13 +106,30 @@
         </properties>
     </rule>
     <rule ref="SlevomatCodingStandard.Commenting.InlineDocCommentDeclaration" />
+    <rule ref="SlevomatCodingStandard.Commenting.UselessFunctionDocComment" />
     <rule ref="SlevomatCodingStandard.ControlStructures.AssignmentInCondition" />
-    <rule ref="SlevomatCodingStandard.ControlStructures.ControlStructureSpacing" />
+    <rule ref="SlevomatCodingStandard.ControlStructures.BlockControlStructureSpacing">
+        <properties>
+            <property name="tokensToCheck" type="array">
+                <element value="T_DO" />
+                <element value="T_FOR" />
+                <element value="T_FOREACH" />
+                <element value="T_IF" />
+                <element value="T_SWITCH" />
+                <element value="T_TRY" />
+            </property>
+        </properties>
+    </rule>
     <rule ref="SlevomatCodingStandard.ControlStructures.DisallowContinueWithoutIntegerOperandInSwitch" />
     <rule ref="SlevomatCodingStandard.ControlStructures.DisallowEmpty" />
     <rule ref="SlevomatCodingStandard.ControlStructures.EarlyExit">
         <properties>
             <property name="ignoreStandaloneIfInScope" value="true" />
+        </properties>
+    </rule>
+    <rule ref="SlevomatCodingStandard.ControlStructures.JumpStatementsSpacing">
+        <properties>
+            <property name="allowSingleLineYieldStacking" value="true" />
         </properties>
     </rule>
     <rule ref="SlevomatCodingStandard.ControlStructures.LanguageConstructWithParentheses" />
@@ -175,18 +192,18 @@
     <rule ref="SlevomatCodingStandard.TypeHints.LongTypeHints" />
     <rule ref="SlevomatCodingStandard.TypeHints.NullableTypeForNullDefaultValue" />
     <rule ref="SlevomatCodingStandard.TypeHints.NullTypeHintOnLastPosition" />
+    <rule ref="SlevomatCodingStandard.TypeHints.ParameterTypeHint" />
     <rule ref="SlevomatCodingStandard.TypeHints.ParameterTypeHintSpacing" />
-    <rule ref="SlevomatCodingStandard.TypeHints.TypeHintDeclaration">
-        <properties>
-            <property name="allAnnotationsAreUseful" value="true" />
-        </properties>
-        <exclude name="SlevomatCodingStandard.TypeHints.DisallowArrayTypeHintSyntax" />
+    <rule ref="SlevomatCodingStandard.TypeHints.ParameterTypeHint" />
+    <rule ref="SlevomatCodingStandard.TypeHints.PropertyTypeHint">
+        <exclude name="SlevomatCodingStandard.TypeHints.PropertyTypeHint.MissingAnyTypeHint" />
     </rule>
     <rule ref="SlevomatCodingStandard.TypeHints.ReturnTypeHintSpacing">
         <properties>
             <property name="spacesCountBeforeColon" value="0" />
         </properties>
     </rule>
+    <rule ref="SlevomatCodingStandard.TypeHints.ReturnTypeHint" />
     <rule ref="SlevomatCodingStandard.TypeHints.UselessConstantTypeHint" />
     <rule ref="SlevomatCodingStandard.Variables.DuplicateAssignmentToVariable" />
     <rule ref="SlevomatCodingStandard.Variables.UnusedVariable">
@@ -205,12 +222,14 @@
     <rule ref="Squiz.Commenting.FunctionComment">
         <exclude name="Squiz.Commenting.FunctionComment.EmptyThrows" />
         <exclude name="Squiz.Commenting.FunctionComment.IncorrectParamVarName" />
+        <exclude name="Squiz.Commenting.FunctionComment.IncorrectTypeHint" />
         <exclude name="Squiz.Commenting.FunctionComment.InvalidReturn" />
         <exclude name="Squiz.Commenting.FunctionComment.InvalidReturnNotVoid" />
         <exclude name="Squiz.Commenting.FunctionComment.Missing" />
         <exclude name="Squiz.Commenting.FunctionComment.MissingParamComment" />
         <exclude name="Squiz.Commenting.FunctionComment.MissingParamTag" />
         <exclude name="Squiz.Commenting.FunctionComment.MissingReturn" />
+        <exclude name="Squiz.Commenting.FunctionComment.ParamNameNoMatch" />
         <exclude name="Squiz.Commenting.FunctionComment.TypeHintMissing" />
     </rule>
     <rule ref="Squiz.Operators.ValidLogicalOperators" />
