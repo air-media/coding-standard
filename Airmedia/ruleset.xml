@@ -225,6 +225,8 @@
         <exclude name="Squiz.Commenting.FunctionComment.IncorrectTypeHint" />
         <exclude name="Squiz.Commenting.FunctionComment.InvalidReturn" />
         <exclude name="Squiz.Commenting.FunctionComment.InvalidReturnNotVoid" />
+        <!-- Breaks when all params are not documented -->
+        <exclude name="Squiz.Commenting.FunctionComment.InvalidTypeHint" />
         <exclude name="Squiz.Commenting.FunctionComment.Missing" />
         <exclude name="Squiz.Commenting.FunctionComment.MissingParamComment" />
         <exclude name="Squiz.Commenting.FunctionComment.MissingParamTag" />
