@@ -7,8 +7,15 @@
     <description>The Airmedia coding standard.</description>
 
     <rule ref="PSR12">
-        <!-- we want to put first expression of multiLine condition on next line -->
+        <!-- checked by PSR12.ControlStructures.ControlStructureSpacing -->
         <exclude name="PSR2.ControlStructures.ControlStructureSpacing.SpacingAfterOpenBrace" />
+        <exclude name="PSR12.Files.FileHeader" />
+        <!-- checked by SlevomatCodingStandard.TypeHints.ReturnTypeHintSpacing -->
+        <exclude name="PSR12.Functions.ReturnTypeDeclaration" />
+        <!-- checked by SlevomatCodingStandard.Classes.TraitUseSpacing -->
+        <exclude name="PSR12.Traits.UseDeclaration" />
+        <!-- checked by SlevomatCodingStandard.Operators.SpreadOperatorSpacing -->
+        <exclude name="Squiz.Functions.FunctionDeclarationArgumentSpacing.SpacingAfterVariadic" />
     </rule>
 
     <rule ref="Generic.Arrays.ArrayIndent" />
@@ -117,6 +124,7 @@
                 <element value="T_IF" />
                 <element value="T_SWITCH" />
                 <element value="T_TRY" />
+                <element value="T_WHILE" />
             </property>
         </properties>
     </rule>
