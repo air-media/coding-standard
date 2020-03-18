@@ -40,6 +40,7 @@
     </rule>
     <rule ref="Generic.WhiteSpace.IncrementDecrementSpacing" />
 
+    <rule ref="SlevomatCodingStandard.Arrays.SingleLineArrayWhitespace" />
     <rule ref="SlevomatCodingStandard.Arrays.TrailingArrayComma" />
     <rule ref="SlevomatCodingStandard.Exceptions.DeadCatch" />
     <rule ref="SlevomatCodingStandard.Exceptions.ReferenceThrowableOnly" />
