@@ -187,6 +187,7 @@
         </properties>
     </rule>
     <rule ref="SlevomatCodingStandard.Operators.DisallowEqualOperators" />
+    <rule ref="SlevomatCodingStandard.Operators.NegationOperatorSpacing" />
     <rule ref="SlevomatCodingStandard.Operators.SpreadOperatorSpacing" />
     <rule ref="SlevomatCodingStandard.PHP.OptimizedFunctionsWithoutUnpacking" />
     <rule ref="SlevomatCodingStandard.PHP.ShortList" />
