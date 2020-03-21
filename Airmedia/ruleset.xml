@@ -14,6 +14,8 @@
         <exclude name="PSR12.Functions.ReturnTypeDeclaration" />
         <!-- checked by SlevomatCodingStandard.Classes.TraitUseSpacing -->
         <exclude name="PSR12.Traits.UseDeclaration" />
+        <!-- Doesn't respect inheritance -->
+        <exclude name="Squiz.Commenting.FunctionComment.ScalarTypeHintMissing" />
         <!-- checked by SlevomatCodingStandard.Operators.SpreadOperatorSpacing -->
         <exclude name="Squiz.Functions.FunctionDeclarationArgumentSpacing.SpacingAfterVariadic" />
     </rule>
