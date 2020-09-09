@@ -10,6 +10,8 @@
         <!-- checked by PSR12.ControlStructures.ControlStructureSpacing -->
         <exclude name="PSR2.ControlStructures.ControlStructureSpacing.SpacingAfterOpenBrace" />
         <exclude name="PSR12.Files.FileHeader" />
+        <!-- checked by SlevomatCodingStandard.TypeHints.ReturnTypeHintSpacing.WhitespaceAfterNullabilitySymbol -->
+        <exclude name="PSR12.Functions.NullableTypeDeclaration.WhitespaceFound" />
         <!-- checked by SlevomatCodingStandard.TypeHints.ReturnTypeHintSpacing -->
         <exclude name="PSR12.Functions.ReturnTypeDeclaration" />
         <!-- checked by SlevomatCodingStandard.Classes.TraitUseSpacing -->
@@ -208,7 +210,6 @@
     <rule ref="SlevomatCodingStandard.TypeHints.NullTypeHintOnLastPosition" />
     <rule ref="SlevomatCodingStandard.TypeHints.ParameterTypeHint" />
     <rule ref="SlevomatCodingStandard.TypeHints.ParameterTypeHintSpacing" />
-    <rule ref="SlevomatCodingStandard.TypeHints.ParameterTypeHint" />
     <rule ref="SlevomatCodingStandard.TypeHints.PropertyTypeHint">
         <exclude name="SlevomatCodingStandard.TypeHints.PropertyTypeHint.MissingAnyTypeHint" />
     </rule>
