@@ -153,9 +153,17 @@
             <property name="lineLengthLimit" value="100" />
         </properties>
     </rule>
+    <rule ref="SlevomatCodingStandard.ControlStructures.RequireNullCoalesceEqualOperator" />
     <rule ref="SlevomatCodingStandard.ControlStructures.RequireNullCoalesceOperator" />
     <rule ref="SlevomatCodingStandard.ControlStructures.UselessIfConditionWithReturn" />
     <rule ref="SlevomatCodingStandard.ControlStructures.UselessTernaryOperator" />
+    <rule ref="SlevomatCodingStandard.Functions.ArrowFunctionDeclaration">
+        <properties>
+            <property name="spacesCountAfterKeyword" value="1" />
+            <property name="spacesCountBeforeArrow" value="1" />
+            <property name="spacesCountAfterArrow" value="1" />
+        </properties>
+    </rule>
     <rule ref="SlevomatCodingStandard.Functions.StaticClosure" />
     <rule ref="SlevomatCodingStandard.Functions.UnusedInheritedVariablePassedToClosure" />
     <rule ref="SlevomatCodingStandard.Functions.UnusedParameter" />
