@@ -148,9 +148,15 @@
     </rule>
     <rule ref="SlevomatCodingStandard.ControlStructures.LanguageConstructWithParentheses" />
     <rule ref="SlevomatCodingStandard.ControlStructures.NewWithParentheses" />
+    <rule ref="SlevomatCodingStandard.ControlStructures.RequireMultiLineCondition">
+        <properties>
+            <property name="maxLineLength" value="121" />
+            <property name="alwaysSplitAllConditionParts" value="true" />
+        </properties>
+    </rule>
     <rule ref="SlevomatCodingStandard.ControlStructures.RequireMultiLineTernaryOperator">
         <properties>
-            <property name="lineLengthLimit" value="100" />
+            <property name="lineLengthLimit" value="120" />
         </properties>
     </rule>
     <rule ref="SlevomatCodingStandard.ControlStructures.RequireNullCoalesceEqualOperator" />
@@ -165,6 +171,16 @@
         </properties>
     </rule>
     <rule ref="SlevomatCodingStandard.Functions.StaticClosure" />
+    <rule ref="SlevomatCodingStandard.Functions.RequireMultiLineCall">
+        <properties>
+            <property name="minLineLength" value="121" />
+        </properties>
+    </rule>
+    <rule ref="SlevomatCodingStandard.Functions.RequireSingleLineCall">
+        <properties>
+            <property name="maxLineLength" value="120" />
+        </properties>
+    </rule>
     <rule ref="SlevomatCodingStandard.Functions.UnusedInheritedVariablePassedToClosure" />
     <rule ref="SlevomatCodingStandard.Functions.UnusedParameter" />
     <rule ref="SlevomatCodingStandard.Namespaces.AlphabeticallySortedUses" />
