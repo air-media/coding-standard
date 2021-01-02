@@ -68,13 +68,13 @@
                 <element value="constructor" />
                 <element value="static constructors" />
                 <element value="destructor" />
+                <element value="magic methods" />
                 <element value="public methods" />
                 <element value="public static methods" />
                 <element value="protected methods" />
                 <element value="protected static methods" />
                 <element value="private methods" />
                 <element value="private static methods" />
-                <element value="magic methods" />
             </property>
         </properties>
     </rule>
