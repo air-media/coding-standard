@@ -32,15 +32,15 @@ class DocCommentSpacing
      * @phpstan-param iterable<string> $foo
      * @psalm-param iterable<string> $foo
      * @param int[] $bar
-     * @phpstan-param iterable<string> $bar
-     * @psalm-param iterable<string> $bar
+     * @phpstan-param array<int> $bar
+     * @psalm-param array<int> $bar
      * @param bool $flag
      * @return string[]
      * @phpstan-return iterable<string>
      * @psalm-return iterable<string>
      * @throws RuntimeException
      */
-    public function b(iterable $foo, iterable $bar, bool $flag): iterable
+    public function b(iterable $foo, array $bar, bool $flag): iterable
     {
         return $foo;
     }

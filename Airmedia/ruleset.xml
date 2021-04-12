@@ -148,7 +148,15 @@
                 " />
                 <element value="@ORM\" />
                 <element value="@param" />
+                <element value="
+                    @psalm-param,
+                    @phpstan-param,
+                " />
                 <element value="@return" />
+                <element value="
+                    @psalm-return,
+                    @phpstan-return,
+                " />
                 <element value="@throws" />
             </property>
         </properties>

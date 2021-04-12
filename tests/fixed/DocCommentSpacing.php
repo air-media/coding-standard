@@ -33,20 +33,21 @@ class DocCommentSpacing
      * @deprecated
      *
      * @param iterable<string> $foo
-     * @param iterable<int>    $bar
+     * @param array<int>       $bar
+     *
+     * @psalm-param iterable<string> $foo
+     * @psalm-param array<int> $bar
+     * @phpstan-param iterable<string> $foo
+     * @phpstan-param array<int> $bar
      *
      * @return iterable<string>
      *
-     * @throws RuntimeException
-     *
-     * @phpstan-param iterable<string> $foo
-     * @psalm-param iterable<string> $foo
-     * @phpstan-param iterable<string> $bar
-     * @psalm-param iterable<string> $bar
-     * @phpstan-return iterable<string>
      * @psalm-return iterable<string>
+     * @phpstan-return iterable<string>
+     *
+     * @throws RuntimeException
      */
-    public function b(iterable $foo, iterable $bar, bool $flag): iterable
+    public function b(iterable $foo, array $bar, bool $flag): iterable
     {
         return $foo;
     }
