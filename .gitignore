@@ -1,2 +1,5 @@
+tests/fix/
 vendor/
+.phpcs-cache
 composer.lock
+phpcs.log

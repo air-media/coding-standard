@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ruleset name="PHPCS Coding Standards for LaminasCodingStandard"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="vendor/squizlabs/php_codesniffer/phpcs.xsd">
+    <description>Check the code of the sniffs in airmedia/coding-standard.</description>
+
+    <arg name="basepath" value="." />
+    <arg name="colors" />
+    <arg name="extensions" value="php" />
+    <arg value="p" />
+
+    <file>Airmedia</file>
+
+    <rule ref="Airmedia" />
+</ruleset>

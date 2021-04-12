@@ -11,5 +11,18 @@
     },
     "config": {
         "sort-packages": true
+    },
+    "scripts": {
+        "check": [
+            "@test-report",
+            "@test-prepare",
+            "@test-fix",
+            "@test-diff"
+        ],
+        "create-report": "phpcs $(find tests/input/* | sort) --report=summary --report-file=tests/expected-report.txt",
+        "test-report": "phpcs $(find tests/input/* | sort) --report=summary --report-file=phpcs.log > /dev/null; diff -u tests/expected-report.txt phpcs.log",
+        "test-prepare": "rm -rf tests/fix/; cp -R tests/input/ tests/fix/",
+        "test-fix": "phpcbf tests/fix > /dev/null || true",
+        "test-diff": "diff -u tests/fix tests/fixed"
     }
 }
