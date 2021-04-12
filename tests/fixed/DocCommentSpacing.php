@@ -20,7 +20,7 @@ class DocCommentSpacing
      * Short decription.
      * Long description.
      *
-     * @param string[] $items
+     * @param iterable<string> $items
      *
      * @throws RuntimeException
      */
@@ -32,10 +32,10 @@ class DocCommentSpacing
      * @internal
      * @deprecated
      *
-     * @param string[] $foo
-     * @param int[]    $bar
+     * @param iterable<string> $foo
+     * @param iterable<int>    $bar
      *
-     * @return string[]
+     * @return iterable<string>
      *
      * @throws RuntimeException
      *

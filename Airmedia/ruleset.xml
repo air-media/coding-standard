@@ -266,6 +266,16 @@
             <property name="newlinesCountAfterDeclare" value="2" />
         </properties>
     </rule>
+    <rule ref="SlevomatCodingStandard.TypeHints.DisallowArrayTypeHintSyntax">
+        <properties>
+            <property name="traversableTypeHints" type="array">
+                <element value="Traversable" />
+                <element value="Iterator" />
+                <element value="IteratorAggregate" />
+                <element value="Doctrine\Common\Collections\Collection" />
+            </property>
+        </properties>
+    </rule>
     <rule ref="SlevomatCodingStandard.TypeHints.LongTypeHints" />
     <rule ref="SlevomatCodingStandard.TypeHints.NullableTypeForNullDefaultValue" />
     <rule ref="SlevomatCodingStandard.TypeHints.NullTypeHintOnLastPosition" />

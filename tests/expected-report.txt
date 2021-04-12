@@ -6,15 +6,16 @@ FILE                                                  ERRORS  WARNINGS
 tests/input/array-ident.php                           12      0
 tests/input/ClassStructure.php                        10      0
 tests/input/ControlStructures.php                     39      0
-tests/input/DocCommentSpacing.php                     11      0
+tests/input/DocCommentSpacing.php                     15      0
 tests/input/EarlyExit.php                             7       0
 tests/input/FunctionsCall.php                         7       1
 tests/input/Namespaces.php                            8       0
+tests/input/TypeHints.php                             18      0
 tests/input/UnusedVariables.php                       2       0
 ----------------------------------------------------------------------
-A TOTAL OF 96 ERRORS AND 1 WARNING WERE FOUND IN 8 FILES
+A TOTAL OF 118 ERRORS AND 1 WARNING WERE FOUND IN 9 FILES
 ----------------------------------------------------------------------
-PHPCBF CAN FIX 82 OF THESE SNIFF VIOLATIONS AUTOMATICALLY
+PHPCBF CAN FIX 97 OF THESE SNIFF VIOLATIONS AUTOMATICALLY
 ----------------------------------------------------------------------
 
 
