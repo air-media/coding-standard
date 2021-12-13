@@ -30,4 +30,8 @@ class TypeHints
     public function map(array $foo): array
     {
     }
+
+    public function union(?string $param): void
+    {
+    }
 }

@@ -25,11 +25,7 @@ class FormattingRules extends Foo
     private const CONST_G = 7;
 
     private $foo;
-
-    /**
-     * @var mixed
-     */
-    private $bar;
+    private mixed $bar;
 
     public function __construct(int $value)
     {

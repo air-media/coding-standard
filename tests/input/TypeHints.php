@@ -36,4 +36,8 @@ class TypeHints
     public function map(array $foo): array
     {
     }
+
+    public function union(string| null $param): void
+    {
+    }
 }

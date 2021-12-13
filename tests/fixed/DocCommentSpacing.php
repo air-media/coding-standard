@@ -11,10 +11,8 @@ class DocCommentSpacing
     /**
      * @ORM\Id
      * @ORM\Column
-     *
-     * @var mixed
      */
-    private $int;
+    private mixed $int;
 
     /**
      * Short decription.
