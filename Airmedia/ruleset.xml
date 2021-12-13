@@ -241,6 +241,7 @@
             <property name="spacesCountAfterArrow" value="1" />
         </properties>
     </rule>
+    <rule ref="SlevomatCodingStandard.Functions.DisallowTrailingCommaInCall" />
     <rule ref="SlevomatCodingStandard.Functions.StaticClosure" />
     <rule ref="SlevomatCodingStandard.Functions.RequireMultiLineCall">
         <properties>
