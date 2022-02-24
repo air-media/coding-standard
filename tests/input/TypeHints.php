@@ -37,7 +37,11 @@ class TypeHints
     {
     }
 
-    public function union(string| null $param): void
+    public function nullableUnion(string| null $param): void
+    {
+    }
+
+    public function union(string | int $param): string |int
     {
     }
 }
