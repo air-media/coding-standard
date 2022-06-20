@@ -103,6 +103,7 @@
         </properties>
     </rule>
     <rule ref="SlevomatCodingStandard.Classes.ModernClassNameReference" />
+    <rule ref="SlevomatCodingStandard.Classes.PropertyDeclaration" />
     <rule ref="SlevomatCodingStandard.Classes.ParentCallSpacing" />
     <rule ref="SlevomatCodingStandard.Classes.PropertySpacing">
         <properties>
