@@ -8,16 +8,17 @@ tests/input/ClassStructure.php                        9       0
 tests/input/ControlStructures.php                     39      0
 tests/input/DocCommentSpacing.php                     15      0
 tests/input/EarlyExit.php                             7       0
-tests/input/FormattingRules.php                       26      2
+tests/input/FormattingRules.php                       27      2
 tests/input/Functions.php                             5       0
 tests/input/Namespaces.php                            8       0
-tests/input/PropertyDeclaration.php                   7       0
-tests/input/TypeHints.php                             24      0
+tests/input/PropertyDeclaration.php                   9       0
+tests/input/TypeHints.php                             25      0
 tests/input/UnusedVariables.php                       2       0
+tests/input/Whitespaces.php                           4       0
 ----------------------------------------------------------------------
-A TOTAL OF 154 ERRORS AND 2 WARNINGS WERE FOUND IN 11 FILES
+A TOTAL OF 162 ERRORS AND 2 WARNINGS WERE FOUND IN 12 FILES
 ----------------------------------------------------------------------
-PHPCBF CAN FIX 130 OF THESE SNIFF VIOLATIONS AUTOMATICALLY
+PHPCBF CAN FIX 138 OF THESE SNIFF VIOLATIONS AUTOMATICALLY
 ----------------------------------------------------------------------
 
 

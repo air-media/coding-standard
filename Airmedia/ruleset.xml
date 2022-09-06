@@ -351,6 +351,7 @@
         </properties>
     </rule>
     <rule ref="SlevomatCodingStandard.Variables.UselessVariable" />
+    <rule ref="SlevomatCodingStandard.Whitespaces.DuplicateSpaces" />
 
     <rule ref="Squiz.Classes.ClassFileName" />
     <rule ref="Squiz.Classes.SelfMemberReference" />
