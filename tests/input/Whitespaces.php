@@ -15,7 +15,11 @@ class Whitespaces
         echo 'b = ' . $b;
     }
 
-    public function match(): void
+    /**
+     * @param list<int>     $a
+     * @param array<string> $aa
+     */
+    public function match($a, array $aa): void
     {
         match (true) {
             $a   => 'a',

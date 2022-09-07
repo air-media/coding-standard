@@ -12,13 +12,13 @@ tests/input/FormattingRules.php                       27      2
 tests/input/Functions.php                             5       0
 tests/input/Namespaces.php                            8       0
 tests/input/PropertyDeclaration.php                   9       0
-tests/input/TypeHints.php                             25      0
+tests/input/TypeHints.php                             24      0
 tests/input/UnusedVariables.php                       2       0
 tests/input/Whitespaces.php                           4       0
 ----------------------------------------------------------------------
-A TOTAL OF 162 ERRORS AND 2 WARNINGS WERE FOUND IN 12 FILES
+A TOTAL OF 161 ERRORS AND 2 WARNINGS WERE FOUND IN 12 FILES
 ----------------------------------------------------------------------
-PHPCBF CAN FIX 138 OF THESE SNIFF VIOLATIONS AUTOMATICALLY
+PHPCBF CAN FIX 137 OF THESE SNIFF VIOLATIONS AUTOMATICALLY
 ----------------------------------------------------------------------
 
 
