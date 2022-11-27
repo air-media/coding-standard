@@ -106,7 +106,12 @@
         </properties>
     </rule>
     <rule ref="SlevomatCodingStandard.Classes.ModernClassNameReference" />
-    <rule ref="SlevomatCodingStandard.Classes.PropertyDeclaration" />
+    <rule ref="SlevomatCodingStandard.Classes.PropertyDeclaration">
+        <properties>
+            <property name="checkPromoted" value="true" />
+            <property name="enableMultipleSpacesBetweenModifiersCheck" value="false" />
+        </properties>
+    </rule>
     <rule ref="SlevomatCodingStandard.Classes.ParentCallSpacing" />
     <rule ref="SlevomatCodingStandard.Classes.PropertySpacing">
         <properties>
