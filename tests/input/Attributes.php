@@ -14,7 +14,7 @@ class Attributes
     /**
      * @psalm-param mixed $param
      */
-    public function call($param): void
+    public function call(#[Attribute3]  $param): void
     {
     }
 }

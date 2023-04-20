@@ -16,7 +16,7 @@ class Attributes
     #[Attribute1]
     #[Attribute2(option: false)]
     #[Attribute3()]
-    public function call($param): void
+    public function call(#[Attribute3] $param): void
     {
     }
 }

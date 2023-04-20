@@ -4,7 +4,7 @@ PHP CODE SNIFFER REPORT SUMMARY
 FILE                                                  ERRORS  WARNINGS
 ----------------------------------------------------------------------
 tests/input/array-ident.php                           12      0
-tests/input/Attributes.php                            6       0
+tests/input/Attributes.php                            7       0
 tests/input/ClassStructure.php                        9       0
 tests/input/ControlStructures.php                     39      0
 tests/input/DocCommentSpacing.php                     15      0
@@ -19,9 +19,9 @@ tests/input/TypeHints.php                             24      0
 tests/input/UnusedVariables.php                       2       0
 tests/input/Whitespaces.php                           5       0
 ----------------------------------------------------------------------
-A TOTAL OF 202 ERRORS AND 2 WARNINGS WERE FOUND IN 15 FILES
+A TOTAL OF 203 ERRORS AND 2 WARNINGS WERE FOUND IN 15 FILES
 ----------------------------------------------------------------------
-PHPCBF CAN FIX 169 OF THESE SNIFF VIOLATIONS AUTOMATICALLY
+PHPCBF CAN FIX 170 OF THESE SNIFF VIOLATIONS AUTOMATICALLY
 ----------------------------------------------------------------------
 
 
