@@ -1,18 +1,18 @@
 version: "3.7"
 services:
-    php71:
+    php74:
         build:
             context: docker
-            dockerfile: php71.dockerfile
+            dockerfile: php74.dockerfile
         working_dir: /var/app
         entrypoint: composer
         volumes:
             - .:/var/app
 
-    php74:
+    php81:
         build:
             context: docker
-            dockerfile: php74.dockerfile
+            dockerfile: php81.dockerfile
         working_dir: /var/app
         entrypoint: composer
         volumes:
