@@ -246,7 +246,6 @@
     <rule ref="SlevomatCodingStandard.ControlStructures.NewWithParentheses" />
     <rule ref="SlevomatCodingStandard.ControlStructures.RequireMultiLineCondition">
         <properties>
-            <property name="maxLineLength" value="121" />
             <property name="alwaysSplitAllConditionParts" value="true" />
         </properties>
     </rule>
