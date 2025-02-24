@@ -328,6 +328,7 @@
     <rule ref="SlevomatCodingStandard.PHP.TypeCast" />
     <rule ref="SlevomatCodingStandard.PHP.UselessParentheses" />
     <rule ref="SlevomatCodingStandard.PHP.UselessSemicolon" />
+    <rule ref="SlevomatCodingStandard.TypeHints.ClassConstantTypeHint" />
     <rule ref="SlevomatCodingStandard.TypeHints.DeclareStrictTypes">
         <properties>
             <property name="linesCountBeforeDeclare" value="1" />
@@ -345,6 +346,14 @@
             </property>
         </properties>
     </rule>
+    <rule ref="SlevomatCodingStandard.TypeHints.DNFTypeHintFormat">
+        <properties>
+            <property name="withSpacesAroundOperators" value="no" />
+            <property name="withSpacesInsideParentheses" value="no" />
+            <property name="shortNullable" value="yes" />
+            <property name="nullPosition" value="last" />
+        </properties>
+    </rule>
     <rule ref="SlevomatCodingStandard.TypeHints.LongTypeHints" />
     <rule ref="SlevomatCodingStandard.TypeHints.NullableTypeForNullDefaultValue" />
     <rule ref="SlevomatCodingStandard.TypeHints.NullTypeHintOnLastPosition" />
@@ -359,13 +368,6 @@
         </properties>
     </rule>
     <rule ref="SlevomatCodingStandard.TypeHints.ReturnTypeHint" />
-    <rule ref="SlevomatCodingStandard.TypeHints.UnionTypeHintFormat">
-        <properties>
-            <property name="withSpaces" value="no" />
-            <property name="shortNullable" value="yes" />
-            <property name="nullPosition" value="last" />
-        </properties>
-    </rule>
     <rule ref="SlevomatCodingStandard.TypeHints.UselessConstantTypeHint" />
     <rule ref="SlevomatCodingStandard.Variables.DuplicateAssignmentToVariable" />
     <rule ref="SlevomatCodingStandard.Variables.UnusedVariable">
